@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/joper" />
+
+    <Button
+        android:id="@+id/btn_reboquesCisternas"
+        android:layout_width="330dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/joper"
+        android:text="Reboques Cisternas"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_reboques" />
+
+    <Button
+        android:id="@+id/btn_Chisses"
+        android:layout_width="330dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/joper"
+        android:text="Chisses"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_reboquesCisternas" />
+
+    <Button
+        android:id="@+id/btn_Equipamento"
+        android:layout_width="330dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/joper"
+        android:text="Equipamento de Discos"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Chisses" />
+
+    <Button
+        android:id="@+id/btn_fresas"
+        android:layout_width="330dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/joper"
+        android:text="Fresas"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Equipamento" />
+
+    <Button
+        android:id="@+id/btn_Corta"
+        android:layout_width="330dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/joper"
+        android:text="Corta-Mato E Trituradores"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fresas" />
+
+    <Button
+        android:id="@+id/btn_Diverso"
+        android:layout_width="330dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/joper"
+        android:text="Equipamento Diverso"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Corta" />
+
+    <Button
+        android:id="@+id/btn_reboques"
+        android:layout_width="330dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/joper"
+        android:text="Reboques"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

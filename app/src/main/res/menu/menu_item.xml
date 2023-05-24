@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title="android">
+
+        <menu>
+
+            <item
+                android:id="@+id/sobre"
+                android:title="Sobre Joper"
+                android:icon="@drawable/ic_baseline_sobre"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/perfil"
+                android:title="perfil"
+                android:icon="@drawable/ic_baseline_perfil"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/defini"
+                android:title="definições"
+                android:icon="@drawable/ic_baseline_defini"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>

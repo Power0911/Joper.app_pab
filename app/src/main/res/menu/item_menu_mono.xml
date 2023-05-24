@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_caract"
+        android:title="caract"
+        android:icon="@drawable/ic_carat"/>
+
+    <item android:id="@+id/nav_base"
+        android:title="base"
+        android:icon="@drawable/ic_base"/>
+
+    <item android:id="@+id/nav_confg"
+        android:title="confg"
+        android:icon="@drawable/ic_confg"/>
+</menu>

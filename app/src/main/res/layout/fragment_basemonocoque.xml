@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".monocoque.basemonocoque">
+
+        <LinearLayout
+            android:id="@+id/dois"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/alterar"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/joper"
+                    android:gravity="center"
+                    android:text="Alterar Dados"
+                    android:textColor="@color/white"></TextView>
+
+                <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Carateristicas do Modelo Base"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@color/joper">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spn_modelos"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="260dp"></Spinner>
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-50dp"
+            android:text="Caracteristicas do Modelo Base:"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="17dp"></TextView>
+
+                <TextView
+                    android:layout_width="410dp"
+                    android:layout_height="40dp"
+                    android:background="@color/card_2"
+                    android:gravity="center"
+                    android:text="Peso e Tara"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="italic"></TextView>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:text="Peso Total:"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/pesototal"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="-40dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"></TextView>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:text="Tara:"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/tara"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="-40dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:background="@color/card_2"
+                    android:text="Dimensões"></TextView>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:text="Dimensões:"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/dimensoes"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="-40dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"></TextView>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:text="Medidas das Rodas"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/medidas_rodas"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="-40dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:background="@color/card_2"
+                    android:text="Eixos"></TextView>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:text="Tipo de Eixo"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/eixos"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="-40dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:background="@color/card_2"
+                    android:text="Capacidade (m3)"></TextView>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:text="Capacidade"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/capacidade"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="-40dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:background="@color/card_2"
+                    android:text="Preços"></TextView>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/black"
+                    android:text="Preços"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></TextView>
+
+                <EditText
+                    android:id="@+id/valores"
+                    android:layout_width="205dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="-40dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="19dp"
+                    android:textStyle="bold"></EditText>
+        </LinearLayout>
+
+</ScrollView>
